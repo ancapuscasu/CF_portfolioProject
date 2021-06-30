@@ -337,6 +337,11 @@ main.portfolio{
   .portfolio-projects{
     grid-template-columns: 1fr;
   }
+  .contact-container__grey{
+    min-width: 210px;
+    display: block;
+    margin: 15px auto;
+  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px){
