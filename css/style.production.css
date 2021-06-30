@@ -220,6 +220,8 @@ button:active{
 
 main.portfolio{
   max-width: 900px;
+  display: block;
+  margin: 0 auto;
 }
 .portfolio-projects__title{
   margin: 10px 0px 20px 40px;
