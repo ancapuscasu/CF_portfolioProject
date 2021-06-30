@@ -226,6 +226,9 @@ main.portfolio{
   text-align: center;
 }
 
+.portfolio-projects__item a{
+  font-weight:700;
+}
 
 /*------ CONTACT PAGE ------ */
 
