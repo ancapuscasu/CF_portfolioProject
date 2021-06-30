@@ -257,6 +257,7 @@ main.portfolio{
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+  line-height: 1.7;
 }
 
 
