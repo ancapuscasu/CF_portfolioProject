@@ -7,17 +7,18 @@ Text (#000000) BLACK
 */
 
 /******** VARIABLES **********/
+
 /******** colors **********/
-:root{
+:root {
   --block-color: #DDDCD7;
   --border-color: #fc1100;
   --hover-color: #ffff00;
-  --primary-text-color:#000000;
+  --primary-text-color: #000000;
   --sun-color_0: #edc655;
   --sun-color_50: #fcffad;
   --sun-color_100: #f76414;
 
-/******** fonts **********/
+  /******** fonts **********/
 
   --strong-font: 600;
   --normal-font: 300;
@@ -25,11 +26,11 @@ Text (#000000) BLACK
   --poppins: "Poppins", sans-serif;
 }
 
-*{
-  box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
+body {
   font-family: var(--montserrat);
   font-weight: var(--normal-font);
   font-size: 16px;
@@ -38,45 +39,40 @@ body{
   height: 100vh;
 }
 
-h1{
+h1 {
   font-family: var(--poppins);
   font-size: 4vh;
   font-weight: var(--strong-font);
-  margin-bottom:0px;
 }
 
-h2{
+h2 {
   font-family: var(--poppins);
   font-size: 2.5vh;
   font-weight: var(--strong-font);
 }
 
-a{
+a {
   color: var(--primary-text-color);
   text-decoration: none;
 }
 
-a:hover, a:focus{
+a:hover, a:focus {
   text-decoration: underline;
 }
 
-a:active{
-  border:2px solid var(--border-color);
+a:active {
+  border: 2px solid var(--border-color);
 }
 
-form{
+form {
   max-width: 90%;
   font-size: 0.8rem;
   border: none;
 }
 
-main{
-  max-width: 
-}
-
 /*------ BUTTONS ------ */
 
-button{
+button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -88,59 +84,57 @@ button{
   transition: background-color 0.2s ease-in;
 }
 
-button:hover, button:focus{
+button:hover, button:focus {
   cursor: pointer;
   background-color: var(--hover-color);
   color: var(--primary-text-color);
 }
 
-button:active{
-  border:2px solid var(--border-color);
+button:active {
+  border: 2px solid var(--border-color);
 }
-
 
 /*------ HEADER ------ */
 
-.page-header{
+.page-header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  padding:5px 20px;
+  padding: 5px 20px;
 }
 
-.page-header__img{
+.page-header__img {
   height: 100px;
 }
 
-.page-header__list{
+.page-header__list {
   width: 100%;
 }
 
-.navigation-list{
+.navigation-list {
   text-align: right;
 }
 
-.navigation-list li{
+.navigation-list li {
   list-style: none;
 }
 
-.navigation-list__item{
+.navigation-list__item {
   display: inline-block;
   margin: 2% 5%;
   font-size: 115%;
 }
 
-
 /*------ HOME PAGE ------ */
 
-.profile{
+.profile {
   margin: 3% auto;
   max-width: 750px;
   position: relative;
 }
 
-.profile-portrait{
+.profile-portrait {
   border-radius: 50%;
   width: 35vw;
   max-width: 200px;
@@ -149,113 +143,110 @@ button:active{
   left: 15%;
 }
 
-.profile-container__grey{
+.profile-container__grey {
   background-color: var(--block-color);
   width: 55vw;
   max-width: 500px;
-  min-width:300px;
+  min-width: 300px;
   padding: 40px 15px;
   margin: 5% 5% 5% 40%;
 }
 
-
-.uppercase{
+.uppercase {
   text-transform: uppercase;
 }
 
-#no-styling{
+#no-styling {
   text-decoration: none;
   border: none;
 }
 
-
 /*------ ABOUT PAGE ------ */
 
-.about-page{
+.about-page {
   width: 70%;
   min-width: 300px;
   max-width: 850px;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 2%;
 }
 
-.skills{
+.skills {
   display: block;
   width: 70%;
   max-width: 850px;
-  margin:0 auto;
-  padding-left:2%;
+  margin: 0 auto;
+  padding-left: 2%;
 }
-.web-icons{
+
+.web-icons {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
   margin: 5px 20px;
 }
 
-.berlin-illustration{
+.berlin-illustration {
   display: block;
-  height: 55vh;
   width: 50%;
   height: 60%;
   margin: 0 auto;
 }
 
-
 /*------ PORTFOLIO PAGE ------ */
 
-main.portfolio{
+main.portfolio {
   max-width: 900px;
   display: block;
   margin: 0 auto;
 }
-.portfolio-projects__title{
+
+.portfolio-projects__title {
   margin: 10px 0px 20px 40px;
 }
 
-.portfolio-projects{
+.portfolio-projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   margin: 0 40px;
 }
 
-.portfolio-projects__item{
+.portfolio-projects__item {
   background-color: var(--block-color);
-  padding:20px 10px;
+  padding: 20px 10px;
   text-align: center;
 }
 
-.portfolio-projects__item a{
-  font-weight:700;
+.portfolio-projects__item a {
+  font-weight: 700;
 }
 
 /*------ CONTACT PAGE ------ */
 
-.contact-container__grey{
+.contact-container__grey {
   background-color: var(--block-color);
   width: 50%;
   max-width: 400px;
   padding: 20px;
-  margin:5% auto;
+  margin: 5% auto;
   justify-content: left;
   line-height: 1.7;
 }
 
-
 /*------ FOOTER ------ */
-.page-footer{
+.page-footer {
   width: 100%;
   height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 18px;
-  bottom:20px;
+  bottom: 20px;
 }
 
-.social-icons a{
-  font-size:200%;
+.social-icons a {
+  font-size: 200%;
   cursor: pointer;
   text-decoration: none;
   border: none;
@@ -263,159 +254,154 @@ main.portfolio{
   font-style: normal;
 }
 
-.fab{
+.fab {
   display: inline-block;
   font-style: normal;
   line-height: 1;
-  margin: 0px;
 }
 
-.fab:hover{
-  opacity:60%;
+.fab:hover {
+  opacity: 60%;
 }
 
-.fab:active{
-  border:2px solid var(--border-color);
+.fab:active {
+  border: 2px solid var(--border-color);
 }
-
 
 /*------ ANIMATION ------ */
 
-
-
-@keyframes sun__colorchange{
-  0%{
-   fill: var(--sun-color_0);
+@keyframes sun__colorchange {
+  0% {
+    fill: var(--sun-color_0);
   }
-  50%{
+
+  50% {
     fill: var(--sun-color_50);
   }
-  100%{
+
+  100% {
     fill: var(--sun-color_100);
   }
 }
 
-.sun{
-  animation:4s sun__colorchange infinite alternate linear;
+.sun {
+  animation: 4s sun__colorchange infinite alternate linear;
 }
 
-
-@keyframes frontcloud__moveright{
-  0%{
-    transform: translate(0,50px);
+@keyframes frontcloud__moveright {
+  0% {
+    transform: translate(0, 50px);
   }
-  100%{
+
+  100% {
     transform: translate(200px, 50px);
   }
 }
 
-.cloud-front{
+.cloud-front {
   animation: 30s frontcloud__moveright linear alternate infinite;
 }
 
-
-
-@keyframes backcloud__moveleft{
-  0%{
+@keyframes backcloud__moveleft {
+  0% {
     transform: translate(446px, 48px);
   }
-  
-  100%{
+
+  100% {
     transform: translate(100px, 48px);
   }
 }
 
-.cloud-back{
-  animation:35s backcloud__moveleft linear alternate infinite;
+.cloud-back {
+  animation: 35s backcloud__moveleft linear alternate infinite;
 }
-
-
 
 /*------ MEDIA QUERIES ------ */
 
-@media all and (max-width: 500px){
-  .portfolio-projects{
+@media all and (max-width: 500px) {
+  .portfolio-projects {
     grid-template-columns: 1fr;
   }
-  .contact-container__grey{
+
+  .contact-container__grey {
     min-width: 210px;
     display: block;
     margin: 15px auto;
   }
-  #message{
-    max-width:180px;
+
+  #message {
+    max-width: 180px;
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px){
-  .portfolio-projects{
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .portfolio-projects {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-
-@media all and (max-width: 750px){
-  .portfolio-projects{
+@media all and (max-width: 750px) {
+  .portfolio-projects {
     grid-gap: 10px;
   }
-  h1{
+
+  h1 {
     font-size: 20px;
   }
-  h2{
-    font-size:17px;
-  }
-  .profile{
-    margin: 5% auto;}
 
-  .profile-portrait{
-    top:20%;
-    left:7%;
+  h2 {
+    font-size: 17px;
   }
-  .profile-container__grey{
-   padding:15px;
-   padding-top: 5px;
+
+  .profile {
+    margin: 5% auto;
+  }
+
+  .profile-portrait {
+    top: 20%;
+    left: 7%;
+  }
+
+  .profile-container__grey {
+    padding: 15px;
+    padding-top: 5px;
   }
 }
 
-@media all and (max-width: 600px){
-  .profile-container__grey{
+@media all and (max-width: 600px) {
+  .profile-container__grey {
     min-width: 160px;
     max-width: 275px;
   }
 }
+
 @media all and (min-width: 750px) {
   .navigation-list {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 
-  .navigation-list__item{
+  .navigation-list__item {
     margin: 10px;
-    margin-right:20px;
-    font-size:115%;
+    margin-right: 20px;
+    font-size: 115%;
   }
 
-  .web-icons{
+  .web-icons {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0px;
     margin: 5px 10px;
   }
 
-  
-  .profile-container__grey{
+  .profile-container__grey {
     padding: 40px 15px;
     padding-left: 25px;
     margin: 10% 5% 5% 40%;
   }
-  .profile{
+
+  .profile {
     margin: 5% auto;
-    max-width:750px;
+    max-width: 750px;
   }
-
 }
-
-
-
-
-
