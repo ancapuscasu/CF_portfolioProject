@@ -193,13 +193,6 @@ a.uppercase {
   margin: 5px 20px;
 }
 
-.berlin-illustration {
-  display: block;
-  width: 50%;
-  height: 60%;
-  margin: 0 auto;
-}
-
 /*------ PORTFOLIO PAGE ------ */
 
 main.portfolio {
@@ -277,51 +270,6 @@ main.portfolio {
 
 /*------ ANIMATION ------ */
 
-@keyframes sun__colorchange {
-  0% {
-    fill: var(--sun-color_0);
-  }
-
-  50% {
-    fill: var(--sun-color_50);
-  }
-
-  100% {
-    fill: var(--sun-color_100);
-  }
-}
-
-.sun {
-  animation: 4s sun__colorchange infinite alternate linear;
-}
-
-@keyframes frontcloud__moveright {
-  0% {
-    transform: translate(0, 50px);
-  }
-
-  100% {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-front {
-  animation: 30s frontcloud__moveright linear alternate infinite;
-}
-
-@keyframes backcloud__moveleft {
-  0% {
-    transform: translate(446px, 48px);
-  }
-
-  100% {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-back {
-  animation: 35s backcloud__moveleft linear alternate infinite;
-}
 
 /*------ MEDIA QUERIES ------ */
 
